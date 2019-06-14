@@ -1,2 +1,3 @@
 # DemoArgCnt
 Counts the number of arguments of a function using variadic template arguments C++11. A simple demo program as starting point or pattern for another practical projects.
+Very useful for the C functions with variable number of arguments where the argument count is required. Sometimes, the refactoring of such a project requires to readjust the integer containing number of arguments sent to the function and this is a tedious work. Fortunately, the modern C++ with new variadic template argument pattern solves this problem by offering the possibility to count the arguments. C++17 offers a more simple and practical possibility. This demo is for C++11.
